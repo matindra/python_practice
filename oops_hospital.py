@@ -15,7 +15,7 @@ class Patient():
 patient1 = Patient('Raghua', 'fever', 25, 'bhadrak')
 patient2 = Patient('Hari', 'corona', 30, 'bbsr')
 
-# print(patient1.name)
-# patient1.Under_Treatment()
+print(patient1.name)
+patient1.Under_Treatment()
 
-#print(patient2.name, ' having ', patient2.disease, 'aged', patient2.age, ' years \n''is from ', patient2.place, ' district ')
+print(patient2.name, ' having ', patient2.disease, 'aged', patient2.age, ' years \n''is from ', patient2.place, ' district ')
